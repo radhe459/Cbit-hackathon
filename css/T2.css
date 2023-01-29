@@ -1,0 +1,23 @@
+
+body{
+    margin: 15px;
+    padding: 10px;  
+    background-color: rgb(46, 238, 255);
+}
+h1{
+   text-align: center;
+   color: red;
+}
+ h2{
+    color: rgb(10, 10, 243);  
+}
+p{
+    font-family: 'Poppins',sans-serif;
+    position: relative ; 
+}
+div img{
+ 
+    float: right;
+    width: 500px;
+   
+}
