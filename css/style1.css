@@ -97,14 +97,14 @@ body {
 @media only screen and (min-device-width: 600px) {
    body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       background-image: url("https://www.resizepixel.com/Image/m8rgj37ip3/Preview/1-Anit-Ragging.jpg?v=a535ccfd-689d-47c8-86c7-8291a10eb98a");
+       background-image: url("https://www.resizepixel.com/Image/o0gzes1h5b/Preview/anti-ragging.jpg?v=d2359e97-d20a-4482-a5f0-befd9548f546");
        background-position: center center;
        background-size: cover;
        height: 100vh;
    }
    .info{
     display: inline;
-    left: 42%;
+    left: 11%;
     width: 200px;
     height: 200px;
     position: absolute;
