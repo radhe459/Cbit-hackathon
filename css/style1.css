@@ -106,16 +106,16 @@ label #back {
 }
 
 body {
-    background-image: url(images/img1);
+    background-image: url(images/img1.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
 }
 
 /* For devices 400px and larger: */
-@media only screen and (min-device-width: 700px) {
+@media only screen and (min-device-width: 400px) {
     body {
-        background-image: url(images/img2);
+        background-image: url(images/img2.jpg);
         background-position: center center;
         background-size: cover;
         height: 100vh;
