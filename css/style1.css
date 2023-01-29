@@ -85,13 +85,13 @@ label #back {
 }
 
 .info {
-    left: 20%;
+    left: 42%;
     width: 200px;
     height: 200px;
     position: absolute;
     text-align: center;
     font-family: cursive;
-    color: blueviolet;
+    color: red;
     border: 4px solid;
 
 
@@ -111,7 +111,7 @@ body {
 }
 
 /* For devices 400px and larger: */
-@media only screen and (min-device-width: 700px) {
+@media only screen and (min-device-width: 600px) {
     body {
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-image: url("https://www.resizepixel.com/Image/m8rgj37ip3/Preview/1-Anit-Ragging.jpg?v=a535ccfd-689d-47c8-86c7-8291a10eb98a");
