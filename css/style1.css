@@ -102,21 +102,28 @@ label #back {
 
 }
 
-body {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("https://visputepharmacy.in/wp-content/uploads/2019/01/anti_ragging.png");
+@media only screen and (max-device-width: 500px) {
+body  {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://www.resizepixel.com/Image/vjtubbxzzr/Preview/12345.jpg?v=f5562a9c-0788-42f5-8379-9f70d2834d14");
     background-position: center center;
     background-size: cover;
     height: 100vh;
+   
+   
+  }
+  .info{
+    display: none;
+  }
 }
-
-/* For devices 400px and larger: */
-@media only screen and (min-device-width: 600px) {
+  
+  /* For devices 400px and larger: */
+  @media only screen and (min-device-width: 500px) {
     body {
-         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-image: url("https://www.resizepixel.com/Image/m8rgj37ip3/Preview/1-Anit-Ragging.jpg?v=a535ccfd-689d-47c8-86c7-8291a10eb98a");
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-image:url("https://www.resizepixel.com/Image/m8rgj37ip3/Preview/1-Anit-Ragging.jpg?v=a535ccfd-689d-47c8-86c7-8291a10eb98a");
         background-position: center center;
         background-size: cover;
         height: 100vh;
     }
-}
+  }
