@@ -10,10 +10,12 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
         * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+
             font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
         }
 
         .flex-container {
@@ -32,37 +34,67 @@
             text-align: center;
             line-height: 200px;
             border-radius: 20px;
-            margin: 90px;
+            /* margin: 120px; */
+            margin-left: 17%;
 
+        }
+
+        .infor {
+            text-align: center;
+
+            border: solid 2px orange;
+            width: 65%;
+            color: white;
+            font-size: 1.5rem;
+            margin: 10px 10px 30px 10px;
+            margin-left: 20%;
+        }
+
+        hr {
+            border-color: blanchedalmond;
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 5px;
+
+            width: 30%;
         }
     </style>
 
 </head>
 
-<body style="background-color:#8EA7E9;">
+<body>
+    <div class="infor">
+        <h1 style="color:orange">
+            <center>About us</center>
+        </h1>
+        <hr>
+        <br>
 
-    <h1 style="color:darkslateblue">
-        <center><i>About us</i></center>
-    </h1>
-    <br>
-
-    <p style="color:black; padding: 30px;"><i>1.We are the anti-ragging members from a committee which was formed in the
+        <p>1.We are the anti-ragging members from a committee which was formed in
+            the
             year
-            <mark>2019</mark>.<br><br>2.Generally we work for the students in educational institutions and public
-            places.<br><br>3.This committee contribute the rewards for those committee members who has taken the
-            immediate consequences against the ragging when the problem is acute.<br><br>4.Available timings to contact
-            the committee<mark> 10:00 AM- 5:00 PM</mark><br><br>5.Committee is in collaboration with<mark> Ministry of
-                Education,Government of India</mark></i></p>
-
+            <mark>2019.</mark>
+        </p>
+        <p>2.Generally we work for the students in educational institutions and public
+            places.</p>
+        <p>3.This committee contribute the rewards for those committee members who has taken the
+            immediate consequences against the ragging when the problem is acute.</p>
+        <p>4.Available timings to
+            contact
+            the committee<mark> 10:00 AM- 5:00 PM</mark></p>
+        <p>5.Committee is in collaboration with<mark> Ministry
+                of
+                Education,Government of India</mark></p>
+    </div>
     <div class="flex-container">
         <div class="flex-box">
-            Resolved:656
+            <b> Resolved:656</b>
         </div>
         <div class="flex-box">
-            Total committee:15
+            <b> Total committee:15</b>
         </div>
         <div class="flex-box">
-            Actions taken:650
+            <b> Actions taken:650</b>
         </div>
     </div>
 
